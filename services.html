@@ -278,8 +278,8 @@
   .svc-sec h2 { font-family: var(--script); font-size: clamp(1.6rem, 3vw, 2.1rem); color: var(--pink-deep); margin-bottom: 14px; }
   .svc-sec .svc-desc { color: #5c5450; max-width: 36em; margin-bottom: 22px; }
   .svc-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 11px; }
-  .svc-list li { display: flex; gap: 12px; align-items: baseline; font-size: 0.95rem; }
-  .svc-list li::before { content: "\2661"; color: var(--pink); flex-shrink: 0; }
+  .svc-list li { display: flex; gap: 11px; align-items: flex-start; font-size: 0.95rem; }
+  .svc-list li::before { content: ""; width: 1.05em; height: 1.05em; margin-top: 0.12em; flex-shrink: 0; background: url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2026%2024'%3E%3Cpath%20d='M13%2022.2%20C%2011%2019.5%203.4%2015.2%202.2%209.3%20C%201.4%205.3%204.2%202.3%207.6%202.9%20C%2010.1%203.3%2012%205.4%2013%207.8%20C%2014%205.3%2016.1%203.2%2018.7%202.9%20C%2022%202.5%2024.6%205.6%2023.7%209.4%20C%2022.4%2015.2%2015%2019.6%2013%2022.2%20Z'%20fill='%23DF7CAB'%20stroke='%23DF7CAB'%20stroke-width='0.6'%20stroke-linejoin='round'/%3E%3C/svg%3E") center / contain no-repeat; }
   @media (max-width: 760px) {
     .svc-grid, .svc-grid.flip { grid-template-columns: 1fr; gap: 30px; text-align: center; }
     .svc-grid.flip .svc-ill { order: 0; }
