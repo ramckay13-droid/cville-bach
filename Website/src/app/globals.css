@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+:root {
+  --color-cream: #f2ddc4;
+  --color-sky: #8fc4d8;
+  --color-sky-dark: #7db6cd;
+  --color-ink: #33302c;
+}
+
+@theme inline {
+  --color-cream: var(--color-cream);
+  --color-sky: var(--color-sky);
+  --color-sky-dark: var(--color-sky-dark);
+  --color-ink: var(--color-ink);
+  --font-serif: var(--font-jacques-francois);
+  --font-script: var(--font-beth-ellen);
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-ink);
+}

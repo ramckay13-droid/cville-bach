@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(artifact-design)",
+      "Skill(artifact-design:*)",
+      "Bash(curl -s -A \"Mozilla/5.0 \\(Macintosh; Intel Mac OS X 10_15_7\\) AppleWebKit/537.36\" \"https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Jacques+Francois&display=swap\" -o fonts.css)",
+      "Bash(curl -s -o bethellen.woff2 \"https://fonts.gstatic.com/s/bethellen/v22/WwkbxPW2BE-3rb_JNT-qEIUiUto4.woff2\")",
+      "Bash(curl -s -o jacques.woff2 \"https://fonts.gstatic.com/s/jacquesfrancois/v26/ZXu9e04ZvKeOOHIe1TMahbcIU2cgmcbqp-RX.woff2\")",
+      "Bash(base64 -i bethellen.woff2 -o bethellen.b64)",
+      "Bash(base64 -i jacques.woff2 -o jacques.b64)",
+      "WebFetch(domain:www.napabach.com)",
+      "Bash(python3 -c ' *)",
+      "Bash(python3)",
+      "Bash(sips -g pixelWidth -g pixelHeight -g hasAlpha \"/Users/rachelmckay/Desktop/Cville Bach/Website/Imagery/Cville Bach Logo@4x copy.png\" \"/Users/rachelmckay/Desktop/Cville Bach/Website/public/images/logo-hero.png\")",
+      "Bash(pip3 install *)",
+      "Bash(python3 -c \"import PIL; print\\('pillow ok'\\)\")"
+    ]
+  }
+}

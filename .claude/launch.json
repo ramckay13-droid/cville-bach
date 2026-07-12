@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "homepage-preview",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["/private/tmp/claude-501/-Users-rachelmckay-Desktop-Cville-Bach/4ede9527-828d-4fba-b2fd-b756dd11007f/scratchpad/serve.py"],
+      "port": 8899
+    }
+  ]
+}

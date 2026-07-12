@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find \"/Users/rachelmckay/Desktop/Cville Bach\" -maxdepth 3 -type f \\\\\\( -iname \"*.jpg\" -o -iname \"*.jpeg\" -o -iname \"*.png\" -o -iname \"*.webp\" -o -iname \"*.heic\" -o -iname \"*.svg\" \\\\\\) 2>/dev/null)",
+      "Bash(npx --yes create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-turbopack --use-npm)",
+      "Bash(npx --yes create-next-app@latest cville-bach --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-turbopack --use-npm)",
+      "Bash(DEST=\"/Users/rachelmckay/Desktop/Cville Bach/Website\" *)",
+      "Bash(sips -Z 2400 -s formatOptions 70 '/Users/rachelmckay/Desktop/Cville Bach/Website/public/images/hero-bg.jpg' --out '/Users/rachelmckay/Desktop/Cville Bach/Website/public/images/hero-bg.jpg')",
+      "Bash(timeout 20 npm run dev)",
+      "Bash(npm run *)",
+      "Bash(curl -s http://localhost:3000/ -o /tmp/page.html)",
+      "Read(//tmp/**)",
+      "Bash(curl -s \"http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__05vc3iv._.css\" -o /tmp/page.css)"
+    ]
+  }
+}
